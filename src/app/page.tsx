@@ -23,11 +23,11 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative flex min-h-[92vh] items-center overflow-hidden">
         <Image
-          src={images.shepherdCloseup}
-          alt="Alert, confident German Shepherd trained by HellaK9s"
+          src={images.heroSection}
+          alt="HellaK9s client smiling with her trained German Shepherd"
           fill
           priority
-          className="object-cover object-[70%_35%]"
+          className="object-cover object-[50%_25%]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />

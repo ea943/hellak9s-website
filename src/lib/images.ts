@@ -6,6 +6,8 @@ function unsplash(id: string, w = 1600) {
 }
 
 export const images = {
+  // Original HellaK9s hero photo (woman + German Shepherd), from the Figma design.
+  heroSection: "/images/hero-section.webp",
   // Serious, alert German Shepherd close-up — the "elite training" hero image.
   shepherdCloseup: unsplash("photo-1589941013453-ec89f33b5e95", 1920),
   // Golden retriever puppy with a collar, outdoors.
